@@ -127,6 +127,12 @@ section .title::after{
 }
 
 /* menu btn styling */
+.menu-btn{
+    color:#fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
 
 }
 .scroll-up-btn{
@@ -400,7 +406,7 @@ footer span a:hover{
 
 
 /* responsive media query start */
-@media (max-width: 1104px) {
+@media (max-width: 991px) {
     .about .about-content .left img{
         height: 350px;
         width: 350px;
